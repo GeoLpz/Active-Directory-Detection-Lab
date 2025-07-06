@@ -2,7 +2,7 @@
 
 ## Objective
 
-The Active Directory Detection Lab project aimed to simulate a real-world-brute-force attack against a Windows Active Directory environment and detect it using Splunk, demonstrating end-to-end log creation, event correlation, and SIEM analysis in a controlled lab setting. 
+The Active Directory Detection Lab project aimed to simulate a real-world brute-force attack against a Windows Active Directory environment and detect it using Splunk, demonstrating end-to-end log creation, event correlation, and SIEM analysis in a controlled lab setting. 
 
 ### Skills Learned
 
