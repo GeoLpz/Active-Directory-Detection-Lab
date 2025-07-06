@@ -1,25 +1,25 @@
 # Active-Directory-Detection-Lab
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The Active Directory Detection Lab project aimed to simulate a real-world-brute-force attack against a Windows Active Directory environment and detect it using Splunk, demonstrating end-to-end log creation, event correlation, and SIEM analysis in a controlled lab setting. 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Practical experience with SIEM tools, using Splunk to detect and analyze security events 
+- Configured and managed a Windows Active Directory environment in a virtual lab
+- Analyzed Windows Security Logs (Event ID 4625) to identify failed login attempts
+- Simulated real-world attack scenarios using Hydra and xfreerdp
+- Strengthened troubleshooting and problem-solving skills in networked environments
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Splunk for centralized log ingestion, event correlation, and alerting 
+- Windows Server for Active Directory setup, domain control, and event logging
+- Kali Linux for attack simulation and security testing
+- Hydra for automated RDP brute-force attempts
+- xfreerdp for remote desktop protocol testing and access validation
+- VirtualBox for creating and managing isolated virtual environments 
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
