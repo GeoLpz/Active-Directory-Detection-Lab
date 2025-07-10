@@ -147,3 +147,24 @@ Ref 18: Ran Hydra from Kali to brute-force the `jsmith` account. It found the co
 
 Ref 19: Used `xfreerdp` with the cracked password to log in. Splunk confirmed it with a successful Event ID 4624 — showing it came from the Kali box (`192.168.10.250`).
 
+### 💣 Atomic Red Team: Simulated Attacks & Detection
+
+To simulate common attack behaviors and validate log visibility in Splunk, I ran a few MITRE ATT&CK-based tests using Atomic Red Team.
+
+### 1. Simulated Account Creation (T1136.001)
+
+![Screenshot 2025-07-10 122636](https://github.com/user-attachments/assets/53ae18a1-44d1-4a4e-bec8-a43d4c5346d8)
+
+
+Ref 20: Ran test T1136.001, which created a new local user (`NewLocalUser`) using multiple methods. The action was picked up in Splunk under `EventCode=4726`, confirming the detection of a suspicious user creation.
+
+### 2. Detected Script Execution Bypass (T1059.001)
+
+![Screenshot 2025-07-10 122925](https://github.com/user-attachments/assets/8a9b8fa6-ec88-4e83-8051-e06fdff1c167)
+
+Ref 21: Executed T1059.001 to simulate a PowerShell execution bypass using `-exec bypass -noprofile`. Windows Security flagged the behavior, and Splunk successfully logged the process creation with the corresponding command-line arguments.
+
+
+
+
+
