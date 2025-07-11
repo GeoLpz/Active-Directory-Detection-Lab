@@ -1,4 +1,4 @@
-# Active-Directory-Detection-Lab
+# Active Directory Detection Lab
 
 ## Objective
 
